@@ -24,3 +24,4 @@
 - create tests 🚧
 - create logic 🚧
 - 4th test, red
+- 4th test, green

@@ -7,6 +7,9 @@ class Kata {
       if (val === 0) {
         result += right;
       }
+      if (val === 1) {
+        result += omit;
+      }
     }
     return result;
   }
