@@ -40,6 +40,13 @@ describe('Test incorrect answers', () => {
   });
 });
 
+describe('Complex logic', () => {
+  test('GIVEN [0, 2, 2, 0, 1], 4, 1, 2 WHEN logic THEN returns 5', () => {
+    const kata = new Kata();
+    expect(kata.scoreTest([0, 2, 2, 0, 1], 4, 1, 2)).toStrictEqual(5);
+  });
+});
+
 
 
 

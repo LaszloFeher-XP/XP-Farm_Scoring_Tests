@@ -118,6 +118,23 @@ Given [2, 2, 2, 2, 1], 0, 0, 2
 When logic
 Then return -8
 
+### 4. Complex check
+As a user
+I want to check the complex logic
+So that creat the logic for evertyhing
+
+#### Scenarios 
+
+#### 8. 
+Given [0, 2, 2, 0, 1], 4, 1, 2
+When logic
+Then return 5
+
+#### 9. 
+Given [0,1,0,2,1,0,0,1,1,0], 2, 8, 7
+When logic
+Then return 35
+
 # Setting up the environment 
 
 ## To install dependencies 
