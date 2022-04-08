@@ -62,7 +62,7 @@ because: 4*3 + 3*-1 - 3*2 = 3
 
 ## User Stories 
 
-### 1. First story 
+### 1. Correct answers
 As a user
 I want to count the correct anwsers
 So that creat the logic for checking zeros
@@ -84,7 +84,7 @@ Given [0, 1, 2, 0, 0, 0], 3, 0, 0
 When logic
 Then return 12
 
-### 2. First story 
+### 2. Omitted answers
 As a user
 I want to count the omitted anwsers
 So that creat the logic for checking ones
@@ -100,6 +100,23 @@ Then return 6
 Given [1, 1, 2, 0, 1], 0, -2, 0
 When logic
 Then return -6
+
+### 3. Incorrect answers
+As a user
+I want to count the incorrect anwsers
+So that creat the logic for checking ones
+
+#### Scenarios 
+
+#### 6. 
+Given [2, 2, 2, 0, 1], 0, 0, 1
+When logic
+Then return 3
+
+#### 7. 
+Given [2, 2, 2, 2, 1], 0, 0, 2
+When logic
+Then return -8
 
 # Setting up the environment 
 
