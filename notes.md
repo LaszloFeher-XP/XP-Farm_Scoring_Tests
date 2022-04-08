@@ -17,3 +17,10 @@
 - 2nd test, red
 - 2nd test, green
 - 3rd test, green
+
+## 2. Pomodoro
+- create user stories 🚧
+- create scenarios 🚧
+- create tests 🚧
+- create logic 🚧
+- 4th test, red

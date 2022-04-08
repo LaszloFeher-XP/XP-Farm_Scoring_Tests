@@ -84,6 +84,23 @@ Given [0, 1, 2, 0, 0, 0], 3, 0, 0
 When logic
 Then return 12
 
+### 2. First story 
+As a user
+I want to count the omitted anwsers
+So that creat the logic for checking ones
+
+#### Scenarios 
+
+#### 4. 
+Given [1, 1, 2, 0, 1], 0, 2, 0
+When logic
+Then return 6
+
+#### 5. 
+Given [1, 1, 2, 0, 1], 2, -2, 0
+When logic
+Then return -6
+
 # Setting up the environment 
 
 ## To install dependencies 
