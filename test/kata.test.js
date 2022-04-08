@@ -11,6 +11,11 @@ describe('Scroring test', () => {
       const kata = new Kata();
       expect(kata.scoreTest([0, 1, 2, 0, 0], 2, 0, 0)).toStrictEqual(6);
     });
+
+    test('GIVEN [0, 1, 2, 0, 0, 0], 2, 0, 0 WHEN logic THEN returns 6', () => {
+      const kata = new Kata();
+      expect(kata.scoreTest([0, 1, 2, 0, 0], 2, 0, 0)).toStrictEqual(6);
+    });
   });
 });
 

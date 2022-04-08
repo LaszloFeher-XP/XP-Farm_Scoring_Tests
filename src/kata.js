@@ -1,7 +1,14 @@
 class Kata {
 
   scoreTest(str, right, omit, wrong) {
-    return 3;
+    let result = 0;
+    for (const val of str) {
+      console.log(val);
+      if (val === 0) {
+        result += right;
+      }
+    }
+    return result;
   }
 }
 
