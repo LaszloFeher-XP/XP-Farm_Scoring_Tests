@@ -1,10 +1,10 @@
 class Kata {
 
-    func() {
-
-    }
+  scoreTest(str, right, omit, wrong) {
+    return null;
+  }
 }
 
 module.exports = {
-    Kata,
+  Kata,
 };
