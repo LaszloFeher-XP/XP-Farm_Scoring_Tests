@@ -39,6 +39,7 @@
 ## 4. Pomodoro
 - create user stories ✔
 - create scenarios ✔
-- create tests 🚧
-- create logic 🚧
+- create tests ✔
+- create logic ✔
 - 8th test, green
+- 9th test, green
