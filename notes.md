@@ -33,3 +33,5 @@
 - create tests 🚧
 - create logic 🚧
 - 6th test, red
+- 6th test, green
+- 7th test, green

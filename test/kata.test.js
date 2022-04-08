@@ -34,7 +34,10 @@ describe('Test incorrect answers', () => {
     const kata = new Kata();
     expect(kata.scoreTest([2, 2, 2, 0, 1], 0, 0, 1)).toStrictEqual(-3);
   });
-
+  test('GIVEN [2, 2, 2, 2, 1], 0, 0, 2 WHEN logic THEN returns -8', () => {
+    const kata = new Kata();
+    expect(kata.scoreTest([2, 2, 2, 2, 1], 0, 0, 2)).toStrictEqual(-8);
+  });
 });
 
 
