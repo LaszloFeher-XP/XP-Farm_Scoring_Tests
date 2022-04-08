@@ -111,7 +111,7 @@ So that creat the logic for checking ones
 #### 6. 
 Given [2, 2, 2, 0, 1], 0, 0, 1
 When logic
-Then return 3
+Then return -3
 
 #### 7. 
 Given [2, 2, 2, 2, 1], 0, 0, 2

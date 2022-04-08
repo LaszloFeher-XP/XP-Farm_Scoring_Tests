@@ -30,9 +30,9 @@ describe('Test omitted answers', () => {
 });
 
 describe('Test incorrect answers', () => {
-  test('GIVEN [2, 2, 2, 0, 1], 0, 0, 1 WHEN logic THEN returns 3', () => {
+  test('GIVEN [2, 2, 2, 0, 1], 0, 0, 1 WHEN logic THEN returns -3', () => {
     const kata = new Kata();
-    expect(kata.scoreTest([2, 2, 2, 0, 1], 0, 0, 1)).toStrictEqual(3);
+    expect(kata.scoreTest([2, 2, 2, 0, 1], 0, 0, 1)).toStrictEqual(-3);
   });
 
 });
